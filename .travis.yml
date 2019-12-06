@@ -19,7 +19,7 @@ after_success:
     - docker push hrugved/fib-multi-client
     - docker push hrugved/fib-multi-nginx
     - docker push hrugved/fib-multi-server
-    - docker push hrugved/fib-multi-client
+    - docker push hrugved/fib-multi-worker
 
 
 
